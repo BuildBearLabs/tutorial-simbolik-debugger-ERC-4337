@@ -1,12 +1,8 @@
 # Docs
 
-## For More Information on chain-specific implementation refer to the following official docs:
+Checkout our Simbolik-Plugin Tutorial on [BuildBear Documentation](https://buildbear.io/docs/tutorials/simbolik-debugger)
 
-### Ethereum :
-
-- [Ethereum EIP-4337](https://eips.ethereum.org/EIPS/eip-4337)
-
-# Installation and Usage
+## Installation and Usage
 
 ```bash
 git clone https://github.com/BuildBearLabs/tutorial-simbolik-debugger-ERC-4337.git
@@ -19,7 +15,7 @@ Setup your BuildBear Sandbox at [BuildBear.io](https://app.buildbear.io).
 Once done, fill in the values in `Makefile` and `.env`.
 The account used to setup Private Key in .env, use it to setup `BURNER_WALLET` in [script/HelperConfig.s.sol](https://github.com/BuildBearLabs/tutorial-simbolik-debugger-ERC-4337/blob/main/script/HelperConfig.s.sol#L31)
 
-## Deployment & Verification
+### Deployment & Verification
 
 > Simbolik Debugger will need contracts verified on **Sourcify**, which can be installed from Plugin Marketplace
 
@@ -28,6 +24,12 @@ To Deploy and Verify on your BuildBear Sandbox Setup, execute the following comm
 ```bash
 make deploy-sourcify
 ```
+
+## For More Information on chain-specific implementation refer to the following official docs:
+
+### Ethereum :
+
+- [Ethereum EIP-4337](https://eips.ethereum.org/EIPS/eip-4337)
 
 # Test Suite
 
