@@ -17,7 +17,7 @@ forge build
 
 Setup your BuildBear Sandbox at [BuildBear.io](https://app.buildbear.io).
 Once done, fill in the values in `Makefile` and `.env`.
-The account used to setup Private Key in .env, use it to setup `BURNER_WALLET` in [srcipt/HelperConfig.s.sol](/script/HelperConfig.s.sol#L-31)
+The account used to setup Private Key in .env, use it to setup `BURNER_WALLET` in [script/HelperConfig.s.sol](https://github.com/BuildBearLabs/tutorial-simbolik-debugger-ERC-4337/blob/main/script/HelperConfig.s.sol#L31)
 
 ## Deployment & Verification
 
