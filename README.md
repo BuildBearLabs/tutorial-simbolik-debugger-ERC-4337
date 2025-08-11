@@ -8,7 +8,7 @@
 
 # Installation and Usage
 
-```
+```bash
 git clone https://github.com/BuildBearLabs/tutorial-simbolik-debugger-ERC-4337.git
 cd tutorial-simbolik-debugger-ERC-4337
 cp .env.example .env
@@ -22,6 +22,12 @@ The account used to setup Private Key in .env, use it to setup `BURNER_WALLET` i
 ## Deployment & Verification
 
 > Simbolik Debugger will need contracts verified on **Sourcify**, which can be installed from Plugin Marketplace
+
+To Deploy and Verify on your BuildBear Sandbox Setup, execute the following command:
+
+```bash
+make deploy-sourcify
+```
 
 # Test Suite
 
